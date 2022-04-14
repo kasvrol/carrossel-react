@@ -59,6 +59,12 @@ function App() {
       <button onClick={handleLeftScroll}><img src={scrool} alt='Scrool Left'/></button>
       <button onClick={handleRightScroll}><img src={scrool} alt='Scrool Right'/></button>
     </div>
+
+    <footer>
+      <p> Esta página não faz venda de produtos </p>
+      <p> Projeto criado para fins didáticos </p>
+      <p> Todos os direitos reservados © <span>santosak1999@gmail.com</span> </p>
+    </footer>
   </div>
   );
 }
